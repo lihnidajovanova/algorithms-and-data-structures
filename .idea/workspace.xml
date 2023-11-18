@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/arrays_book/InsertMiddleValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_book/InsertMiddleValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/ArrayTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/ChangeArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/EvenNumbersSLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/JoinSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/MirrorListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/SLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/SLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_1_arrays_and_lists_1/SLLTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_2_arrays_and_lists_2/DLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_2_arrays_and_lists_2/DLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_2_arrays_and_lists_2/DLLTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_2_arrays_and_lists_2/ListMirrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_2_arrays_and_lists_2/problem_1/DLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_2_arrays_and_lists_2/problem_1/DLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auditory_exercise_2_arrays_and_lists_2/problem_1/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sll_book/DeleteLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sll_book/SLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sll_book/SLLNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,39 +74,39 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertMiddleValues">
-    <configuration name="ArrayMeanValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays_book.ArrayMeanValue" />
-      <module name="algorithms and data structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays_book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChangeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays_book.ChangeArrays" />
-      <module name="algorithms and data structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays_book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.auditory_exercise_1_arrays_and_lists_1.ChangeArrays">
     <configuration name="InsertMiddleValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays_book.InsertMiddleValues" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays_book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditory_exercise_1_arrays_and_lists_1.Main" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="auditory_exercise_1_arrays_and_lists_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MirrorListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditory_exercise_1_arrays_and_lists_1.MirrorListMain" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="auditory_exercise_1_arrays_and_lists_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="auditory_exercise_1_arrays_and_lists_1.ChangeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditory_exercise_1_arrays_and_lists_1.ChangeArrays" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="auditory_exercise_1_arrays_and_lists_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.auditory_exercise_1_arrays_and_lists_1.ChangeArrays" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MirrorListMain" />
         <item itemvalue="Application.InsertMiddleValues" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.ChangeArrays" />
-        <item itemvalue="Application.ArrayMeanValue" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700273576886</updated>
-      <workItem from="1700273578046" duration="6866000" />
+      <workItem from="1700273578046" duration="11498000" />
     </task>
     <servers />
   </component>
