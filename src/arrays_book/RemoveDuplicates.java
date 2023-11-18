@@ -17,7 +17,8 @@ public class RemoveDuplicates {
             }
         }
 
-        result[j] = array[n - 1];   //add the last element
+        //add the last element
+        result[j] = array[n - 1];
 
         int[] finalResult = new int[j + 1];
 
@@ -30,11 +31,11 @@ public class RemoveDuplicates {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int N = scanner.nextInt(); //read the number of elements in the array
-        int[] array = new int[N];
+        int n = scanner.nextInt();
+        int[] array = new int[n];
 
         // read the elements and fill in the array
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
         }
 
