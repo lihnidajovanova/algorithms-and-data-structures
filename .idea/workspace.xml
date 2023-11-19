@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sll_book/DivideList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/AListFromLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/AListFromLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/SLLBrisenjePodLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/SLLBrisenjePodLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/SpecialSLLDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/SpecialSLLDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SwapPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AListFromLists">
+  <component name="RunManager" selected="Application.DivideList">
     <configuration name="AListFromLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="first_midterm_exercises.AListFromLists" />
       <module name="algorithms and data structures" />
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auditory_exercise_1_arrays_and_lists_1.Main" />
+    <configuration name="DivideList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sll_book.DivideList" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="auditory_exercise_1_arrays_and_lists_1.*" />
+          <option name="PATTERN" value="sll_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirrorListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auditory_exercise_1_arrays_and_lists_1.MirrorListMain" />
+    <configuration name="SwapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sll_book.SwapPairs" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="auditory_exercise_1_arrays_and_lists_1.*" />
+          <option name="PATTERN" value="sll_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivideList" />
+        <item itemvalue="Application.SwapPairs" />
         <item itemvalue="Application.AListFromLists" />
         <item itemvalue="Application.DeleteLast" />
         <item itemvalue="Application.auditory_exercise_1_arrays_and_lists_1.ChangeArrays" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MirrorListMain" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700273576886</updated>
-      <workItem from="1700273578046" duration="23686000" />
+      <workItem from="1700273578046" duration="25124000" />
     </task>
     <servers />
   </component>
