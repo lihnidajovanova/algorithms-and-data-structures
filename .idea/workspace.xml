@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/AListFromLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/BusTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/CardTrick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/LongestDecreasingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/MathematicalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/SLLBrisenjePodLista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_1_introduction_to_java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_1_introduction_to_java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_1_introduction_to_java/PushZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_1_introduction_to_java/PushZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_1_introduction_to_java/ReverseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_1_introduction_to_java/ReverseWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/ArrayMeanWordLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/ArrayMeanWordLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/MysticalCardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/MysticalCardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/SpecialSLLDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/SpecialSLLDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/CountWordPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/CountWordPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/DLLBattalion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/DLLBattalion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/MiceHoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/MiceHoles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_4_algorithms/ArithmeticExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_4_algorithms/ArithmeticExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_4_algorithms/SumOfAbsoluteDifferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_4_algorithms/SumOfAbsoluteDifferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_4_algorithms/ZigZagSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_4_algorithms/ZigZagSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/DeleteSLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/DeleteSLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/ExpressionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/ExpressionEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/LDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/LDS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/ListaOdListi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/ListaOdListi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/card_trick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/card_trick.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700273576886</updated>
-      <workItem from="1700273578046" duration="19293000" />
+      <workItem from="1700273578046" duration="21776000" />
     </task>
     <servers />
   </component>

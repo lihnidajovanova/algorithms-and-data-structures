@@ -1,5 +1,6 @@
 package first_midterm_exercises;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 class SLLNode<E> {
@@ -10,17 +11,13 @@ class SLLNode<E> {
         this.element = elem;
         this.succ = succ;
     }
-
-    @Override
-    public String toString() {
-        return element.toString();
-    }
 }
 
 class SLL<E> {
     private SLLNode<E> first;
 
     public SLL() {
+        // Construct an empty SLL
         this.first = null;
     }
 
@@ -28,19 +25,14 @@ class SLL<E> {
         first = null;
     }
 
-    public int length() {
-        int ret;
-        if (first != null) {
-            SLLNode<E> tmp = first;
-            ret = 1;
-            while (tmp.succ != null) {
-                tmp = tmp.succ;
-                ret++;
-            }
-            return ret;
-        } else
-            return 0;
-
+    public int size() {
+        int listSize = 0;
+        SLLNode<E> tmp = first;
+        while (tmp != null) {
+            listSize++;
+            tmp = tmp.succ;
+        }
+        return listSize;
     }
 
     @Override
@@ -48,10 +40,10 @@ class SLL<E> {
         String ret = new String();
         if (first != null) {
             SLLNode<E> tmp = first;
-            ret += tmp;
+            ret += tmp.element;
             while (tmp.succ != null) {
                 tmp = tmp.succ;
-                ret += "->" + tmp;
+                ret += "->" + tmp.element;
             }
         } else
             ret = "Prazna lista!!!";
@@ -59,7 +51,9 @@ class SLL<E> {
     }
 
     public void insertFirst(E o) {
-        SLLNode<E> ins = new SLLNode<E>(o, first);
+        SLLNode<E> ins = new SLLNode<E>(o, null);
+        ins.succ = first;
+        //SLLNode<E> ins = new SLLNode<E>(o, first);
         first = ins;
     }
 
@@ -79,11 +73,12 @@ class SLL<E> {
                 this.insertFirst(o);
                 return;
             }
-            while (tmp.succ != before)
+            //ako first!=before
+            while (tmp.succ != before && tmp.succ != null)
                 tmp = tmp.succ;
             if (tmp.succ == before) {
-                SLLNode<E> ins = new SLLNode<E>(o, before);
-                tmp.succ = ins;
+                tmp.succ = new SLLNode<E>(o, before);
+                ;
             } else {
                 System.out.println("Elementot ne postoi vo listata");
             }
@@ -97,8 +92,7 @@ class SLL<E> {
             SLLNode<E> tmp = first;
             while (tmp.succ != null)
                 tmp = tmp.succ;
-            SLLNode<E> ins = new SLLNode<E>(o, null);
-            tmp.succ = ins;
+            tmp.succ = new SLLNode<E>(o, null);
         } else {
             insertFirst(o);
         }
@@ -134,6 +128,7 @@ class SLL<E> {
             System.out.println("Listata e prazna");
             return null;
         }
+
     }
 
     public SLLNode<E> getFirst() {
@@ -143,9 +138,9 @@ class SLL<E> {
     public SLLNode<E> find(E o) {
         if (first != null) {
             SLLNode<E> tmp = first;
-            while (tmp.element != o && tmp.succ != null)
+            while (!tmp.element.equals(o) && tmp.succ != null)
                 tmp = tmp.succ;
-            if (tmp.element == o) {
+            if (tmp.element.equals(o)) {
                 return tmp;
             } else {
                 System.out.println("Elementot ne postoi vo listata");
@@ -153,7 +148,18 @@ class SLL<E> {
         } else {
             System.out.println("Listata e prazna");
         }
-        return first;
+        return null;
+    }
+
+    public void merge(SLL<E> in) {
+        if (first != null) {
+            SLLNode<E> tmp = first;
+            while (tmp.succ != null)
+                tmp = tmp.succ;
+            tmp.succ = in.getFirst();
+        } else {
+            first = in.getFirst();
+        }
     }
 
     public void mirror() {
@@ -174,39 +180,41 @@ class SLL<E> {
     }
 }
 
-public class DeleteSLL {
-    public static void change(SLL<Integer> list, int br) {
-        SLLNode<Integer> current = list.getFirst();
-        int count = 0;
 
-        // count occurrences of br in the list
-        while (current != null) {
-            if (current.element.equals(br)) {
-                count++;
-            }
-            current = current.succ;
-        }
-
-        // if count is odd, add an additional element before the first appearance of br
-        if (count % 2 != 0) {
-            SLLNode<Integer> firstAppearance = list.find(br);
-            if (firstAppearance != null) {
-                list.insertBefore(br, firstAppearance);
-            }
-        }
-    }
-
-    public static void main(String[] args) {
-        // TODO: Auto-generated method stub
+public class SLLBrisenjePodLista {
+    public static void main(String[] args) throws IOException {
+        // TODO Auto-generated method stub
         Scanner scan = new Scanner(System.in);
-        int n;
-        SLL<Integer> list1 = new SLL<Integer>();
+        int n, broj;
+        SLL<Integer> lista1 = new SLL<Integer>();
         n = scan.nextInt();
         for (int i = 0; i < n; i++) {
-            list1.insertLast(scan.nextInt());
+            lista1.insertLast(scan.nextInt());
         }
-        int br = scan.nextInt();
-        change(list1, br);
-        System.out.println(list1);
+
+        broj = scan.nextInt();
+        int count = 0;
+        SLLNode<Integer> pom = lista1.getFirst();
+
+        while (pom != null) {
+            if (pom.element == broj) {
+                count++;
+            }
+            pom = pom.succ;
+        }
+
+        if (count > 0 && count % 2 != 0) {
+            pom = lista1.getFirst();
+
+            while (pom != null) {
+
+                if (pom.element == broj) {
+                    lista1.insertBefore(broj, pom);
+                    break;
+                }
+                pom = pom.succ;
+            }
+        }
+        System.out.println(lista1);
     }
 }
