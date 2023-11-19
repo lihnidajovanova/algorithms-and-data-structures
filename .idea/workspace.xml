@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/AListFromLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/BusTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/CardTrick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/LongestDecreasingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/MathematicalExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_midterm_exercises/SLLBrisenjePodLista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/DeleteSLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/DeleteSLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/ExpressionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/ExpressionEvaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/LDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/LDS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/ListaOdListi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/ListaOdListi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/card_trick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/card_trick.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +46,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/lihni/Desktop/code/algorithms and data structures/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -150,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700273576886</updated>
-      <workItem from="1700273578046" duration="21776000" />
+      <workItem from="1700273578046" duration="22777000" />
     </task>
     <servers />
   </component>
