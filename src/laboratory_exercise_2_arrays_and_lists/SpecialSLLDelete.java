@@ -2,6 +2,7 @@ package laboratory_exercise_2_arrays_and_lists;
 
 import java.util.Scanner;
 
+/*
 class SLLNode<E> {
     protected E element;
     protected SLLNode<E> succ;
@@ -184,6 +185,7 @@ class SLL<E> {
         }
     }
 }
+*/
 
 public class SpecialSLLDelete<E> {
 

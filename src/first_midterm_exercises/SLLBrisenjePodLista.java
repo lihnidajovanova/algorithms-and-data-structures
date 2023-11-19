@@ -3,6 +3,7 @@ package first_midterm_exercises;
 import java.io.IOException;
 import java.util.Scanner;
 
+/*
 class SLLNode<E> {
     protected E element;
     protected SLLNode<E> succ;
@@ -179,7 +180,7 @@ class SLL<E> {
         }
     }
 }
-
+*/
 
 public class SLLBrisenjePodLista {
     public static void main(String[] args) throws IOException {

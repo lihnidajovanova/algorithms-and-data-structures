@@ -3,7 +3,6 @@ package first_midterm_exercises;
 import java.util.Scanner;
 
 public class AListFromLists {
-
     public static long findMagicNumber(DLL<DLL<Integer>> list) {
         DLLNode<DLL<Integer>> current = list.getFirst();
         long prod = 1;
@@ -41,9 +40,9 @@ public class AListFromLists {
         in.close();
         System.out.println(findMagicNumber(list));
     }
-
 }
 
+/*
 class DLLNode<E> {
     protected E element;
     protected DLLNode<E> pred, succ;
@@ -178,3 +177,4 @@ class DLL<E> {
         return last;
     }
 }
+*/

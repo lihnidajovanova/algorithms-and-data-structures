@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/AListFromLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/AListFromLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_midterm_exercises/SLLBrisenjePodLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_midterm_exercises/SLLBrisenjePodLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/SpecialSLLDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_2_arrays_and_lists/SpecialSLLDelete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +58,13 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteLast">
-    <configuration name="DeleteLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sll_book.DeleteLast" />
+  <component name="RunManager" selected="Application.AListFromLists">
+    <configuration name="AListFromLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first_midterm_exercises.AListFromLists" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sll_book.*" />
+          <option name="PATTERN" value="first_midterm_exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertMiddleValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays_book.InsertMiddleValues" />
+    <configuration name="DeleteLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sll_book.DeleteLast" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays_book.*" />
+          <option name="PATTERN" value="sll_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AListFromLists" />
         <item itemvalue="Application.DeleteLast" />
         <item itemvalue="Application.auditory_exercise_1_arrays_and_lists_1.ChangeArrays" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MirrorListMain" />
-        <item itemvalue="Application.InsertMiddleValues" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700273576886</updated>
-      <workItem from="1700273578046" duration="22777000" />
+      <workItem from="1700273578046" duration="23686000" />
     </task>
     <servers />
   </component>
