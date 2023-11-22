@@ -1,6 +1,8 @@
-package laboratory_exercise_3_DLL_and_algorithms;
+package laboratory_exercise_5_sorting;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 class DLLNode<E> {
     protected E element;
@@ -19,10 +21,10 @@ class DLLNode<E> {
 }
 
 class DLL<E> {
-    private DLLNode<E> first, last;
+    protected DLLNode<E> first, last;
 
+    // construct an empty DLL
     public DLL() {
-        // Construct an empty SLL
         this.first = null;
         this.last = null;
     }
@@ -46,7 +48,7 @@ class DLL<E> {
         }
     }
 
-    public void insertAfter(E o, DLLNode<E> after) {
+    public void insertfAfter(E o, DLLNode<E> after) {
         if (after == last) {
             insertLast(o);
             return;
@@ -81,7 +83,7 @@ class DLL<E> {
 
     public E deleteLast() {
         if (first != null) {
-            if (first.succ == null)
+            if (first.succ != null)
                 return deleteFirst();
             else {
                 DLLNode<E> tmp = last;
@@ -94,16 +96,13 @@ class DLL<E> {
     }
 
     public E delete(DLLNode<E> node) {
-        if (node == first) {
+        if (node == first)
             return deleteFirst();
-        }
-        if (node == last) {
+        if (node == last)
             return deleteLast();
-        }
         node.pred.succ = node.succ;
         node.succ.pred = node.pred;
         return node.element;
-
     }
 
     public DLLNode<E> find(E o) {
@@ -152,116 +151,59 @@ class DLL<E> {
         return ret;
     }
 
-    public String toStringR() {
-        String ret = new String();
-        if (last != null) {
-            DLLNode<E> tmp = last;
-            ret += tmp.toString();
-            while (tmp.pred != null) {
-                tmp = tmp.pred;
-                ret += "<->" + tmp.toString();
-            }
-        } else
-            ret = "Prazna lista!!!";
-        return ret;
-    }
-
     public DLLNode<E> getFirst() {
         return first;
-    }
-
-    public DLLNode<E> getLast() {
-        return last;
     }
 
     public void setFirst(DLLNode<E> node) {
         this.first = node;
     }
-
-    public void setLast(DLLNode<E> node) {
-        this.last = node;
-    }
-
-    public void mirror() {
-        DLLNode<E> tmp = null;
-        DLLNode<E> current = first;
-        last = first;
-        while (current != null) {
-            tmp = current.pred;
-            current.pred = current.succ;
-            current.succ = tmp;
-            current = current.pred;
-        }
-
-        if (tmp != null && tmp.pred != null) {
-            first = tmp.pred;
-        }
-    }
 }
 
-public class DLLBattalion {
+public class BubbleSortDLL {
+    public static void bubbleSort(DLL<Integer> list) {
+        if (list == null)
+            return;
 
-    //TODO: implement function
-    public static void battalion(DLL<Integer> list, int a, int b) {
-        DLLNode<Integer> first = list.getFirst();
-        DLLNode<Integer> last = list.getLast();
+        DLLNode<Integer> curr = list.getFirst();
 
-        // find starting noe of the sub-interval
-        DLLNode<Integer> start = list.find(a);
-
-        // find ending node of the sub-interval
-        DLLNode<Integer> end = list.find(b);
-
-        // handle cases where the sub-interval starts from the first soldier or ends with the last soldier
-        DLLNode<Integer> prevStart = start.pred;
-        DLLNode<Integer> nextEnd = end.succ;
-
-        // reverse the links within the sub-interval
-        DLLNode<Integer> current = start;
-        DLLNode<Integer> next = null;
-        DLLNode<Integer> prev = null;
-
-        while (current != nextEnd) {
-            next = current.succ;
-            current.succ = prev;
-            current.pred = next;
-            prev = current;
-            current = next;
-        }
-        // Update the links for the reversed sub-interval
-        start.succ = nextEnd;
-        end.pred = prevStart;
-
-        if (prevStart != null) {
-            prevStart.succ = end;
-        } else {
-            list.setFirst(end);
+        // bubble sort
+        while (curr != null) {
+            DLLNode<Integer> next = curr.succ;
+            while (next != null) {
+                if (curr.element > next.element) {
+                    int tmp = curr.element;
+                    curr.element = next.element;
+                    next.element = tmp;
+                }
+                next = next.succ;
+            }
+            curr = curr.succ;
         }
 
-        if (nextEnd != null) {
-            nextEnd.pred = start;
-        } else {
-            list.setLast(start);
+        // print
+        curr = list.getFirst();
+        while (curr != null) {
+            System.out.print(curr.element + " ");
+            curr = curr.succ;
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String s = br.readLine();
 
-        Scanner input = new Scanner(System.in);
+        // read the number of nodes
+        int n = Integer.parseInt(s);
+        s = br.readLine();
+        String[] tmp = s.split(" ");
 
-        int n = input.nextInt();
-
-        DLL<Integer> list = new DLL<>();
+        DLL<Integer> list = new DLL<Integer>();
+        // read the nodes of the DLL
         for (int i = 0; i < n; i++) {
-            list.insertLast(input.nextInt());
+            list.insertLast(Integer.parseInt(tmp[i]));
         }
 
-        int a = input.nextInt();
-        int b = input.nextInt();
-
-        battalion(list, a, b);
-
-        System.out.println(list);
-        System.out.println(list.toStringR());
+        bubbleSort(list);
     }
 }

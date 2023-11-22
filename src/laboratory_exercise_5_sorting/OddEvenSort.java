@@ -72,3 +72,76 @@ public class OddEvenSort {
         System.out.print(a[i]);
     }
 }
+
+/*
+public class OddEvenSort {
+    static void oddAscending(int arr[], int n) {
+        int tmp = 0;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
+            }
+        }
+    }
+
+    static void evenDescending(int arr[], int n) {
+        int tmp = 0;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] < arr[j + 1]) {
+                    tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
+            }
+        }
+    }
+
+    static void oddEvenSort(int a[], int n) {
+        // Vasiot kod tuka
+        int[] even = new int[n];
+        int[] odd = new int[n];
+        int evenCount = 0, oddCount = 0;
+
+        for (int i = 0; i < n; i++) {
+            if ((a[i] & 1) == 0) {  // ((a[i] & i) == 0) same as ((a[i] % 2) == 0)
+                even[evenCount++] = a[i];
+            } else {
+                odd[oddCount++] = a[i];
+            }
+        }
+
+        oddAscending(odd, oddCount);
+        evenDescending(even, evenCount);
+
+        for (int i = 0; i < oddCount; i++) {
+            a[i] = odd[i];
+        }
+        int j = 0;
+        for (int i = oddCount; i < n; i++) {
+            a[i] = even[j++];
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
+        int i;
+        BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+        String s = stdin.readLine();
+        int n = Integer.parseInt(s);
+
+        s = stdin.readLine();
+        String[] pom = s.split(" ");
+        int[] a = new int[n];
+        for (i = 0; i < n; i++)
+            a[i] = Integer.parseInt(pom[i]);
+        oddEvenSort(a, n);
+        for (i = 0; i < n - 1; i++)
+            System.out.print(a[i] + " ");
+        System.out.print(a[i]);
+    }
+}
+*/

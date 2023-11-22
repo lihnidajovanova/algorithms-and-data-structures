@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_5_sorting/OddEvenSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_5_sorting/BubbleSortDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_5_sorting/ShakerSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/DLLBattalion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_3_DLL_and_algorithms/DLLBattalion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_5_sorting/OddEvenSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_5_sorting/OddEvenSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +59,13 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OddEvenSort">
-    <configuration name="AListFromLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_midterm_exercises.AListFromLists" />
+  <component name="RunManager" selected="Application.BubbleSortDLL (2)">
+    <configuration name="BubbleSortDLL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_5_sorting.BubbleSortDLL" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="first_midterm_exercises.*" />
+          <option name="PATTERN" value="laboratory_exercise_5_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sll_book.DeleteLast" />
+    <configuration name="BubbleSortDLL (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_5_sorting.BubbleSortDLL" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_5_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivideList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sll_book.DivideList" />
+    <configuration name="BubbleSortDLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_5_sorting.BubbleSortDLL" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_5_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sll_book.SwapPairs" />
+    <configuration name="ShakerSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_5_sorting.ShakerSort" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_5_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSortDLL (2)" />
+        <item itemvalue="Application.BubbleSortDLL (1)" />
+        <item itemvalue="Application.BubbleSortDLL" />
+        <item itemvalue="Application.ShakerSort" />
         <item itemvalue="Application.OddEvenSort" />
-        <item itemvalue="Application.DivideList" />
-        <item itemvalue="Application.SwapPairs" />
-        <item itemvalue="Application.AListFromLists" />
-        <item itemvalue="Application.DeleteLast" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,7 @@
       <updated>1700273576886</updated>
       <workItem from="1700273578046" duration="25143000" />
       <workItem from="1700520805608" duration="22000" />
-      <workItem from="1700520840120" duration="1405000" />
+      <workItem from="1700520840120" duration="17352000" />
     </task>
     <servers />
   </component>
