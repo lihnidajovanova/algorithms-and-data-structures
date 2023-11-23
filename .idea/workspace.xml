@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_6_onedimensional_data_structures/PostFixEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sll_book/JoinSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sll_book/Mirror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sll_book/Rearrange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sll_book/SLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sll_book/SLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLNode.java" afterDir="false" />
-    </list>
+    <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +116,7 @@
       <workItem from="1700273578046" duration="25143000" />
       <workItem from="1700520805608" duration="22000" />
       <workItem from="1700520840120" duration="25119000" />
-      <workItem from="1700703316660" duration="2804000" />
+      <workItem from="1700703316660" duration="3474000" />
     </task>
     <servers />
   </component>
