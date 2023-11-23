@@ -4,16 +4,20 @@ import java.util.Scanner;
 
 public class Rearrange {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        SLL<Integer> list = new SLL<Integer>();
+        SLL<Integer> list = new SLL<>();
 
+        // Читање на влезот
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
         for (int i = 0; i < n; i++) {
-            int el = sc.nextInt();
-            list.insertLast(el);
+            int data = scanner.nextInt();
+            list.insert(data);
         }
 
+        // Преуреди ги јазлите
         list.rearrange();
-        System.out.println(list.toString());
+
+        // Испечати ја преуредената листа
+        list.printList();
     }
 }

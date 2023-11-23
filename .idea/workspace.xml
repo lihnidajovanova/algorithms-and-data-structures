@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="" />
+    <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sll_book/SLLMergeAlternating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sll_book/SLLMinMaxSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sll_book/SLLRemoveNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/Rearrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/Rearrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/SLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/SLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLNode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,14 +61,7 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Rearrange (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="algorithms and data structures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SLLRemoveNodes">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="algorithms and data structures" />
@@ -75,15 +76,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="algorithms and data structures" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rearrange (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sll_book.Rearrange" />
+    <configuration name="SLLMinMaxSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sll_book.SLLMinMaxSplit" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sll_book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLLRemoveNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sll_book.SLLRemoveNodes" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
@@ -97,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Rearrange (3)" />
+        <item itemvalue="Application.SLLRemoveNodes" />
+        <item itemvalue="Application.SLLMinMaxSplit" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +130,8 @@
       <workItem from="1700273578046" duration="25143000" />
       <workItem from="1700520805608" duration="22000" />
       <workItem from="1700520840120" duration="25119000" />
-      <workItem from="1700703316660" duration="3474000" />
+      <workItem from="1700703316660" duration="7652000" />
+      <workItem from="1700720649543" duration="1614000" />
     </task>
     <servers />
   </component>
@@ -133,16 +148,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/laboratory_exercise_1_introduction_to_java/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
