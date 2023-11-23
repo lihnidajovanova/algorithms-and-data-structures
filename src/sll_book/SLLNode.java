@@ -8,4 +8,18 @@ public class SLLNode<E> {
         this.element = elem;
         this.succ = succ;
     }
+
+    public SLLNode<E> reverseList(SLLNode<E> node) {
+        SLLNode<E> prev = null;
+        SLLNode<E> curr = node;
+        SLLNode<E> next;
+
+        while (curr != null) {
+            next = curr.succ;
+            curr.succ = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
 }

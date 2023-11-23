@@ -136,4 +136,64 @@ public class SLL<E> {
         }
         return listSize;
     }
+
+    public void mirror() {
+        if (first != null) {
+            // m = nextSucc, p = tmp, q = next
+            SLLNode<E> tmp = first;
+            SLLNode<E> newSucc = null;
+            SLLNode<E> next;
+
+            while (tmp != null) {
+                next = tmp.succ;
+                tmp.succ = newSucc;
+                newSucc = tmp;
+                tmp = next;
+            }
+            first = newSucc;
+        }
+    }
+
+    public void rearrange() {
+        // 1. fin the middle of the list
+        SLLNode<E> middle = this.getFirst();
+        for (int i = 1; i < this.size() / 2; i++)
+            middle = middle.succ;
+        System.out.print(middle.element);
+
+        // 2. divide the list into 2 halves
+        // node1, first node from the first half 1->2->3
+        // node2, first node from the second half 4->5
+        SLLNode<E> node1 = this.getFirst();
+        SLLNode<E> node2 = middle.succ;
+        middle.succ = null;
+
+        // 3. reverse the second half 5->4
+        node2.reverseList(node2);
+
+        // 4. alternately merge the lists
+        SLLNode<E> node = new SLLNode<E>(null, null);   // auxiliary node
+
+        // curr is pointer towards the auxiliary node
+        // from where the new list will be created
+        SLLNode<E> curr = node;
+        while (node1 != null || node2 != null) {
+            // first add a node from the first list
+            if (node1 != null) {
+                curr.succ = node1;
+                curr = curr.succ;
+                node1 = node1.succ;
+            }
+
+            // then add a node from the second list
+            if (node2 != null) {
+                curr.succ = node2;
+                curr = curr.succ;
+                node2 = node2.succ;
+            }
+        }
+
+        // remove the auxiliary node
+        node = node.succ;
+    }
 }
