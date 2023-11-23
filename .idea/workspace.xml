@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sll_book/SLLMergeAlternating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sll_book/SLLMinMaxSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sll_book/SLLRemoveNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dll_book/DLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sll_book/Rearrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/Rearrange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sll_book/SLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sll_book/SLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,7 @@
       <workItem from="1700520805608" duration="22000" />
       <workItem from="1700520840120" duration="25119000" />
       <workItem from="1700703316660" duration="7652000" />
-      <workItem from="1700720649543" duration="1614000" />
+      <workItem from="1700720649543" duration="3843000" />
     </task>
     <servers />
   </component>
