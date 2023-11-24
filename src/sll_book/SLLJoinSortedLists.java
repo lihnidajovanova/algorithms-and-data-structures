@@ -1,6 +1,6 @@
 package sll_book;
 
-public class JoinSortedLists<E extends Comparable<E>> {
+public class SLLJoinSortedLists<E extends Comparable<E>> {
     public SLL<E> join(SLL<E> list1, SLL<E> list2) {
         SLL<E> result = new SLL<E>();
         SLLNode<E> node1 = list1.getFirst();
@@ -45,7 +45,7 @@ public class JoinSortedLists<E extends Comparable<E>> {
         list2.insertLast("Biljana");
         list2.insertLast("Darko");
 
-        JoinSortedLists<String> js = new JoinSortedLists<String>();
+        SLLJoinSortedLists<String> js = new SLLJoinSortedLists<String>();
         System.out.println(js.join(list1, list2));
     }
 }

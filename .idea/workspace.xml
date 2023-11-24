@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLDivideByParity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLInsertAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dll_book/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dll_book/DLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dll_book/DLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dll_book/DLLNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/DeleteLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLDeleteLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/DivideList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLDivideList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/JoinSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLJoinSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sll_book/Rearrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sll_book/SLLRearrange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,34 +66,52 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SLLRemoveNodes">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="algorithms and data structures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="algorithms and data structures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="algorithms and data structures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SLLMinMaxSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sll_book.SLLMinMaxSplit" />
+  <component name="RunManager" selected="Application.DLLInsertAverage">
+    <configuration name="DLLDivideByParity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dll_book.DLLDivideByParity" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sll_book.*" />
+          <option name="PATTERN" value="dll_book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DLLInsertAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dll_book.DLLInsertAverage" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dll_book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DLLPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dll_book.DLLPalindrome" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dll_book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DLLTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dll_book.DLLTester" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dll_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DLLInsertAverage" />
+        <item itemvalue="Application.DLLDivideByParity" />
+        <item itemvalue="Application.DLLPalindrome" />
+        <item itemvalue="Application.DLLTester" />
         <item itemvalue="Application.SLLRemoveNodes" />
-        <item itemvalue="Application.SLLMinMaxSplit" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +154,7 @@
       <workItem from="1700520805608" duration="22000" />
       <workItem from="1700520840120" duration="25119000" />
       <workItem from="1700703316660" duration="7652000" />
-      <workItem from="1700720649543" duration="3843000" />
+      <workItem from="1700720649543" duration="9048000" />
     </task>
     <servers />
   </component>

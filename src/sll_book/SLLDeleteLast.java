@@ -2,7 +2,7 @@ package sll_book;
 
 import java.util.Scanner;
 
-public class DeleteLast {
+public class SLLDeleteLast {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

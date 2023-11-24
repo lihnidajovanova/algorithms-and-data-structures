@@ -1,6 +1,6 @@
 package sll_book;
 
-public class Mirror {
+public class SLLMirror {
     public static void main(String[] args) {
         SLL<String> listOfNames = new SLL<String>();
         listOfNames.insertLast("Ana");

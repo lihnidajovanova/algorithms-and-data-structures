@@ -2,7 +2,7 @@ package sll_book;
 
 import java.util.Scanner;
 
-public class Rearrange {
+public class SLLRearrange {
     public static void main(String[] args) {
         SLL<Integer> list = new SLL<>();
 
