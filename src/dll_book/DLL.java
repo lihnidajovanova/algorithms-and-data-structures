@@ -155,6 +155,14 @@ public class DLL<E> {
         return last;
     }
 
+    public void setFirst(DLLNode<E> first) {
+        this.first = first;
+    }
+
+    public void setLast(DLLNode<E> last) {
+        this.last = last;
+    }
+
     public void mirror() {
         DLLNode<E> tmp = null;
         DLLNode<E> current = first;
