@@ -1,4 +1,3 @@
-/*
 package laboratory_exercise_7_hash;
 
 import java.io.BufferedReader;
@@ -154,4 +153,4 @@ public class RoutingHashJava {
             e.printStackTrace();
         }
     }
-}*/
+}
