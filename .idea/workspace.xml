@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLDeleteSublists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLDivideByAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLFlipList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLListaOdListi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLMilitary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dll_book/DLLMirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_6_onedimensional_data_structures/CheckXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_6_onedimensional_data_structures/MVR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/Apteka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/Lozinki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/Preveduvac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/RoutingHashJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dll_book/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dll_book/DLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_6_onedimensional_data_structures/PostFixEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_6_onedimensional_data_structures/PostFixEvaluation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,34 +41,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/lihni/Desktop/code/algorithms and data structures/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/lihni/Desktop/code/algorithms and data structures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/lihni/Desktop/code/algorithms and data structures/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DLLMilitary">
-    <configuration name="DLLDeleteSublists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dll_book.DLLDeleteSublists" />
+  <component name="RunManager" selected="Application.RoutingHashJava (1)">
+    <configuration name="PostFixEvaluation (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_6_onedimensional_data_structures.PostFixEvaluation" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_6_onedimensional_data_structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLLDivideByAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dll_book.DLLDivideByAverage" />
+    <configuration name="PostFixEvaluation (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_6_onedimensional_data_structures.PostFixEvaluation" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_6_onedimensional_data_structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLLFlipList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dll_book.DLLFlipList" />
+    <configuration name="PostFixEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_6_onedimensional_data_structures.PostFixEvaluation" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_6_onedimensional_data_structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLLMilitary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dll_book.DLLMilitary" />
+    <configuration name="RoutingHashJava (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_7_hash.RoutingHashJava" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_7_hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLLMirror" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dll_book.DLLMirror" />
+    <configuration name="RoutingHashJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_7_hash.RoutingHashJava" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dll_book.*" />
+          <option name="PATTERN" value="laboratory_exercise_7_hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DLLMilitary" />
-        <item itemvalue="Application.DLLDeleteSublists" />
-        <item itemvalue="Application.DLLDivideByAverage" />
-        <item itemvalue="Application.DLLMirror" />
-        <item itemvalue="Application.DLLFlipList" />
+        <item itemvalue="Application.RoutingHashJava (1)" />
+        <item itemvalue="Application.RoutingHashJava" />
+        <item itemvalue="Application.PostFixEvaluation" />
+        <item itemvalue="Application.PostFixEvaluation (5)" />
+        <item itemvalue="Application.PostFixEvaluation (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,11 @@
       <workItem from="1700520805608" duration="22000" />
       <workItem from="1700520840120" duration="25119000" />
       <workItem from="1700703316660" duration="7652000" />
-      <workItem from="1700720649543" duration="13370000" />
+      <workItem from="1700720649543" duration="14606000" />
+      <workItem from="1700935977272" duration="636000" />
+      <workItem from="1701052390660" duration="4840000" />
+      <workItem from="1701494330810" duration="1253000" />
+      <workItem from="1701640194490" duration="6448000" />
     </task>
     <servers />
   </component>
