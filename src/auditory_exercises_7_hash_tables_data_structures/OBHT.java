@@ -1,70 +1,61 @@
-/*
-package laboratory_exercise_7_hash;
+package auditory_exercises_7_hash_tables_data_structures;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-class MapEntry<K extends Comparable<K>, E> implements Comparable<K> {
-    K key;
-    E value;
-
-    public MapEntry(K key, E val) {
-        this.key = key;
-        this.value = val;
-    }
-
-    public int compareTo(K that) {
-        @SuppressWarnings("unchecked")
-        MapEntry<K, E> other = (MapEntry<K, E>) that;
-        return this.key.compareTo(other.key);
-    }
-
-    public String toString() {
-        return "<" + key + "," + value + ">";
-    }
-}
-
-class OBHT<K extends Comparable<K>, E> {
-
+public class OBHT<K extends Comparable<K>, E> {
+    // An object of class OBHT is an open-bucket hash table, containing entries
+    // of class MapEntry.
     private MapEntry<K, E>[] buckets;
 
-    static final int NONE = -1;
+    // buckets[b] is null if bucket b has never been occupied.
+    // buckets[b] is former if bucket b is formerly-occupied
+    // by an entry that has since been deleted (and not yet replaced).
+
+    static final int NONE = -1; // ... distinct from any bucket index.
 
     @SuppressWarnings({"rawtypes", "unchecked"})
     private static final MapEntry former = new MapEntry(null, null);
+    // This guarantees that, for any genuine entry e,
+    // e.key.equals(former.key) returns false.
 
     private int occupancy = 0;
+    // ... number of occupied or formerly-occupied buckets in this OBHT.
 
     @SuppressWarnings("unchecked")
     public OBHT(int m) {
+        // Construct an empty OBHT with m buckets.
         buckets = (MapEntry<K, E>[]) new MapEntry[m];
     }
 
     private int hash(K key) {
+        // Translate key to an index of the array buckets.
         return Math.abs(key.hashCode()) % buckets.length;
     }
 
-    public MapEntry<K, E> getBucket(int i) {
-        return buckets[i];
-    }
-
     public int search(K targetKey) {
+        // Find which if any bucket of this OBHT is occupied by an entry whose key
+        // is equal to targetKey. Return the index of that bucket.
         int b = hash(targetKey);
+        int n_search = 0;
         for (; ; ) {
             MapEntry<K, E> oldEntry = buckets[b];
             if (oldEntry == null)
                 return NONE;
             else if (targetKey.equals(oldEntry.key))
                 return b;
-            else
+            else {
                 b = (b + 1) % buckets.length;
+                n_search++;
+                if (n_search == buckets.length)
+                    return NONE;
+
+            }
         }
     }
 
     public void insert(K key, E val) {
+        // Insert the entry <key, val> into this OBHT.
         MapEntry<K, E> newEntry = new MapEntry<K, E>(key, val);
         int b = hash(key);
+        int n_search = 0;
         for (; ; ) {
             MapEntry<K, E> oldEntry = buckets[b];
             if (oldEntry == null) {
@@ -77,23 +68,34 @@ class OBHT<K extends Comparable<K>, E> {
                     || key.equals(oldEntry.key)) {
                 buckets[b] = newEntry;
                 return;
-            } else
+            } else {
                 b = (b + 1) % buckets.length;
+                n_search++;
+                if (n_search == buckets.length)
+                    return;
+            }
         }
     }
 
     @SuppressWarnings("unchecked")
     public void delete(K key) {
+        // Delete the entry (if any) whose key is equal to key from this OBHT.
         int b = hash(key);
+        int n_search = 0;
         for (; ; ) {
             MapEntry<K, E> oldEntry = buckets[b];
+
             if (oldEntry == null)
                 return;
             else if (key.equals(oldEntry.key)) {
-                buckets[b] = former;
+                buckets[b] = former;    // (MapEntry<K,E>)former;
                 return;
             } else {
                 b = (b + 1) % buckets.length;
+                n_search++;
+                if (n_search == buckets.length)
+                    return;
+
             }
         }
     }
@@ -112,6 +114,7 @@ class OBHT<K extends Comparable<K>, E> {
         return temp;
     }
 
+
     public OBHT<K, E> clone() {
         OBHT<K, E> copy = new OBHT<K, E>(buckets.length);
         for (int i = 0; i < buckets.length; i++) {
@@ -124,34 +127,3 @@ class OBHT<K extends Comparable<K>, E> {
         return copy;
     }
 }
-
-public class Preveduvac {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        OBHT<String, String> dictionary = new OBHT<>(128);
-
-        for (int i = 0; i < N; i++) {
-            String input = br.readLine();
-            String[] res = input.split(" ");
-            dictionary.insert(res[1], res[0]);
-        }
-
-        // Perform translations
-        while (true) {
-            String word = br.readLine();
-            if (word.equals("KRAJ")) {
-                break;
-            }
-
-            int index = dictionary.search(word);
-            if (index != OBHT.NONE) {
-                MapEntry<String, String> entry = dictionary.getBucket(index);
-                System.out.println(entry.value);
-            } else {
-                System.out.println("/");
-            }
-        }
-
-    }
-}*/

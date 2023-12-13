@@ -1,3 +1,4 @@
+/*
 package laboratory_exercise_7_hash;
 
 import java.io.BufferedReader;
@@ -169,4 +170,4 @@ class SLLNode<E> {
     public String toString() {
         return element.toString();
     }
-}
+}*/
