@@ -167,9 +167,9 @@ public class Graph<E> {
             if (included[i]) {
                 //ako e vkluceno temeto i
                 //izmini gi negovite nevkluceni sosedi
-                Iterator<GraphNodeNeighbor<E>> it = adjList[i].getNeighbors().iterator();
+                Iterator<GraphNodeNeighbour<E>> it = adjList[i].getNeighbors().iterator();
                 while (it.hasNext()) {
-                    GraphNodeNeighbor<E> pom = it.next();
+                    GraphNodeNeighbour<E> pom = it.next();
                     //ako sosedot ne e poseten i ima do sega najmala tezina
                     if (!included[pom.node.getIndex()] && pom.weight < minweight) {
                         index1 = i;
@@ -232,9 +232,9 @@ public class Graph<E> {
          */
         for (int i = 1; i < this.num_nodes; i++) {
             /* za site sledbenici na from presmetaj ja cenata */
-            Iterator<GraphNodeNeighbor<E>> it = adjList[from].getNeighbors().iterator();
+            Iterator<GraphNodeNeighbour<E>> it = adjList[from].getNeighbors().iterator();
             while (it.hasNext()) {
-                GraphNodeNeighbor<E> pom = it.next();
+                GraphNodeNeighbour<E> pom = it.next();
                 /* ako grankata kon sosedot nema konecna cena */
                 if (!finalno[pom.node.getIndex()]) {
                     /* ako ne e presmetana cena za temeto */

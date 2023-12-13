@@ -17,7 +17,7 @@ public class GraphNodeNeighbor<E> {
     @Override
     public boolean equals(Object obj) {
         @SuppressWarnings("unchecked")
-        GraphNodeNeighbor<E> pom = (GraphNodeNeighbor<E>) obj;
+        GraphNodeNeighbor<E> pom = (GraphNodeNeighbor<E>)obj;
         return pom.node.equals(this.node);
     }
 }

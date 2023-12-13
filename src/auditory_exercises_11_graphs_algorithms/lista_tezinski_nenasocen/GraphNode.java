@@ -6,26 +6,26 @@ import java.util.LinkedList;
 public class GraphNode<E> {
     private int index; // index (reden broj) na temeto vo grafot
     private E info;
-    private LinkedList<GraphNodeNeighbor<E>> neighbors;
+    private LinkedList<GraphNodeNeighbour<E>> neighbors;
 
     public GraphNode(int index, E info) {
         this.index = index;
         this.info = info;
-        neighbors = new LinkedList<GraphNodeNeighbor<E>>();
+        neighbors = new LinkedList<GraphNodeNeighbour<E>>();
     }
 
     public boolean containsNeighbor(GraphNode<E> o) {
-        GraphNodeNeighbor<E> pom = new GraphNodeNeighbor<E>(o, 0);
+        GraphNodeNeighbour<E> pom = new GraphNodeNeighbour<E>(o, 0);
         return neighbors.contains(pom);
     }
 
     public void addNeighbor(GraphNode<E> o, float weight) {
-        GraphNodeNeighbor<E> pom = new GraphNodeNeighbor<E>(o, weight);
+        GraphNodeNeighbour<E> pom = new GraphNodeNeighbour<E>(o, weight);
         neighbors.add(pom);
     }
 
     public void removeNeighbor(GraphNode<E> o) {
-        GraphNodeNeighbor<E> pom = new GraphNodeNeighbor<E>(o, 0);
+        GraphNodeNeighbour<E> pom = new GraphNodeNeighbour<E>(o, 0);
         if (neighbors.contains(pom))
             neighbors.remove(pom);
     }
@@ -40,9 +40,9 @@ public class GraphNode<E> {
     }
 
     public void updateNeighborWeight(GraphNode<E> o, float weight) {
-        Iterator<GraphNodeNeighbor<E>> i = neighbors.iterator();
+        Iterator<GraphNodeNeighbour<E>> i = neighbors.iterator();
         while (i.hasNext()) {
-            GraphNodeNeighbor<E> pom = i.next();
+            GraphNodeNeighbour<E> pom = i.next();
             if (pom.node.equals(o))
                 pom.weight = weight;
         }
@@ -71,11 +71,11 @@ public class GraphNode<E> {
         this.info = info;
     }
 
-    public LinkedList<GraphNodeNeighbor<E>> getNeighbors() {
+    public LinkedList<GraphNodeNeighbour<E>> getNeighbors() {
         return neighbors;
     }
 
-    public void setNeighbors(LinkedList<GraphNodeNeighbor<E>> neighbors) {
+    public void setNeighbors(LinkedList<GraphNodeNeighbour<E>> neighbors) {
         this.neighbors = neighbors;
     }
 }

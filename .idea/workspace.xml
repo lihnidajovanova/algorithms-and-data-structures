@@ -5,83 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_10_introduction_to_graphs/AdjacencyListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_10_introduction_to_graphs/AdjacencyListGraphTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_10_introduction_to_graphs/AdjacencyMatrixGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_10_introduction_to_graphs/AdjacencyMatrixGraphTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_10_introduction_to_graphs/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_netezinski_nasocen/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_netezinski_nasocen/GraphNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_netezinski_nasocen/TopologicalSortTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/DijkstraTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/GraphNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/GraphNodeNeighbour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/KruskalGraphTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/PrimGraphTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/DijkstraTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/GraphNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/GraphNodeNeighbour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/KruskalGraphTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/PrimGraphTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_3_algorithms_techniques_1/ChessBruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_3_algorithms_techniques_1/FractionalKnapsackGreedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_3_algorithms_techniques_1/WaterConnectionGreedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_4_algorithms_techniques_2/DP1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_4_algorithms_techniques_2/DP2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_4_algorithms_techniques_2/DP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_4_algorithms_techniques_2/DP4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_4_algorithms_techniques_2/DP5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_4_algorithms_techniques_2/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_4_algorithms_techniques_2/PowerDivideAndConquer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/CalcPostfix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/DoubleArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/SLLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/SortedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_5_one_dimensional_data_structures/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_6_sorts/Sorters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/CBHT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/CBHTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/ChemicalElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/ChemicalElementDH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/DoublyHashable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/DoublyHashedOBHT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/DoublyHashedOBHTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/MapEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/OBHT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/OBHTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/SLLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/TestHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_7_hash_tables_data_structures/TestHashtable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/binary_tree/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/binary_tree/BNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/binary_tree/BTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/binary_tree/BTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/binary_tree/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/unordered_tree/SLLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/unordered_tree/SLLTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_8_hierarchical_data_structures_trees/unordered_tree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_9_search_trees/balancedbinarysearchtree/AVLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_9_search_trees/balancedbinarysearchtree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_9_search_trees/binarysearchtree/BNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_9_search_trees/binarysearchtree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_9_search_trees/heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auditory_exercises_9_search_trees/heap/HeapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_8_trees/WindowsExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dll_book/LinkedListTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/Apteka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/Apteka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/Preveduvac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/Preveduvac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/RoutingHashJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_7_hash/RoutingHashJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/GraphNodeNeighbour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nasocen/GraphNodeNeighbour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/GraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/GraphNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/GraphNodeNeighbour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auditory_exercises_11_graphs_algorithms/lista_tezinski_nenasocen/GraphNodeNeighbour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +61,7 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BTreeTest">
+  <component name="RunManager" selected="Application.LinkedListTester">
     <configuration name="BTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="auditory_exercises_8_hierarchical_data_structures_trees.unordered_tree.binary_tree.BTreeTest" />
       <module name="algorithms and data structures" />
@@ -146,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auditory_exercises_5_one_dimensional_data_structures.Parentheses" />
+    <configuration name="LinkedListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dll_book.LinkedListTester" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="auditory_exercises_5_one_dimensional_data_structures.*" />
+          <option name="PATTERN" value="dll_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auditory_exercises_5_one_dimensional_data_structures.PriorityQueue" />
+    <configuration name="Parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditory_exercises_5_one_dimensional_data_structures.Parentheses" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListTester" />
         <item itemvalue="Application.BTreeTest" />
         <item itemvalue="Application.Sorters" />
         <item itemvalue="Application.Parentheses" />
         <item itemvalue="Application.SortedQueue" />
-        <item itemvalue="Application.PriorityQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +154,7 @@
       <workItem from="1701052390660" duration="4840000" />
       <workItem from="1701494330810" duration="1253000" />
       <workItem from="1701640194490" duration="7145000" />
-      <workItem from="1702420351510" duration="9567000" />
+      <workItem from="1702420351510" duration="11026000" />
     </task>
     <servers />
   </component>
