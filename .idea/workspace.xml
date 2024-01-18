@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_8_trees/BinaryTreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_8_trees/PreorderNonRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_9_binary_search_trees/BusCapacity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_9_binary_search_trees/ConsecutiveNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_9_binary_search_trees/RankingCompetitors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/CalcPostfix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/TestQuasiStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_10_introduction_to_graphs/GraphCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_10_introduction_to_graphs/Labyrinth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_11_graph_algorithms/GraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_11_graph_algorithms/ShortestPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratory_exercise_8_trees/WindowsExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory_exercise_8_trees/WindowsExplorer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +55,10 @@
     "Application.ConsecutiveNumbers (4).executor": "Run",
     "Application.ConsecutiveNumbers (5).executor": "Run",
     "Application.ConsecutiveNumbers.executor": "Run",
+    "Application.GraphCommands.executor": "Run",
+    "Application.Labyrinth.executor": "Run",
+    "Application.NextSubject (1).executor": "Run",
+    "Application.NextSubject.executor": "Run",
     "Application.PreorderNonRecursive (1).executor": "Run",
     "Application.PreorderNonRecursive (2).executor": "Run",
     "Application.PreorderNonRecursive (3).executor": "Run",
@@ -71,6 +67,8 @@
     "Application.PreorderNonRecursive.executor": "Run",
     "Application.RankingCompetitors (1).executor": "Run",
     "Application.RankingCompetitors.executor": "Run",
+    "Application.ShortestPath.executor": "Run",
+    "Application.SubjectOrganization.executor": "Run",
     "Application.WindowsExplorer (1).executor": "Run",
     "Application.WindowsExplorer (2).executor": "Run",
     "Application.WindowsExplorer (3).executor": "Run",
@@ -98,20 +96,7 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BusCapacity (1)">
-    <configuration name="BusCapacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_9_binary_search_trees.BusCapacity" />
-      <module name="algorithms and data structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="laboratory_exercise_9_binary_search_trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SubjectOrganization">
     <configuration name="BusCapacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BusCapacity" />
       <module name="algorithms and data structures" />
@@ -119,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsecutiveNumbers (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_9_binary_search_trees.ConsecutiveNumbers" />
+    <configuration name="GraphCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_10_introduction_to_graphs.GraphCommands" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratory_exercise_9_binary_search_trees.*" />
+          <option name="PATTERN" value="laboratory_exercise_10_introduction_to_graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,19 +117,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RankingCompetitors (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RankingCompetitors" />
+    <configuration name="NextSubject (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.NextSubject" />
       <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RankingCompetitors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_9_binary_search_trees.RankingCompetitors" />
+    <configuration name="NextSubject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.NextSubject" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratory_exercise_9_binary_search_trees.*" />
+          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.ShortestPath" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectOrganization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.SubjectOrganization" />
+      <module name="algorithms and data structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BusCapacity (1)" />
-        <item itemvalue="Application.BusCapacity" />
-        <item itemvalue="Application.RankingCompetitors (1)" />
-        <item itemvalue="Application.RankingCompetitors" />
-        <item itemvalue="Application.ConsecutiveNumbers (1)" />
+        <item itemvalue="Application.SubjectOrganization" />
+        <item itemvalue="Application.NextSubject (1)" />
+        <item itemvalue="Application.NextSubject" />
+        <item itemvalue="Application.ShortestPath" />
+        <item itemvalue="Application.GraphCommands" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +206,11 @@
       <workItem from="1702420351510" duration="14738000" />
       <workItem from="1702705095081" duration="187000" />
       <workItem from="1702705390781" duration="6619000" />
-      <workItem from="1702861907116" duration="7742000" />
+      <workItem from="1702861907116" duration="8940000" />
+      <workItem from="1704035708167" duration="4287000" />
+      <workItem from="1704573520362" duration="1214000" />
+      <workItem from="1704587446676" duration="24000" />
+      <workItem from="1704633314600" duration="2497000" />
     </task>
     <servers />
   </component>
