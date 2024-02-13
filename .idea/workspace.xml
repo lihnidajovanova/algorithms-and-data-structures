@@ -5,11 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00dd63c-c8a4-4bdb-a5da-b0977e0c5f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_10_introduction_to_graphs/GraphCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_10_introduction_to_graphs/Labyrinth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_11_graph_algorithms/GraphTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory_exercise_11_graph_algorithms/ShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/DLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/DLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/DoubleArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueADSConsultations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueColloquium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueConsultations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueExamOrganization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueExamWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueRoundRobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueTestQuasiQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/QueueTrains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/SLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/SLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackBallSortingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackBalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackDanceCouples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackDoubleParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackExamSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackInfixToPostfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackMolecules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackMyStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackTestQuasiStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackToxicPlants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/TestQueueStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dll_book/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dll_book/DLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dll_book/DLLDeleteSublists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dll_book/DLLDeleteSublists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dll_book/DLLMilitary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dll_book/DLLMilitary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dll_book/DLLMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dll_book/DLLMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/CalcPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/StackCalcPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/Parentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one_dimensional_data_structures_book/TestQuasiStack.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +75,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BallSortingGame.executor": "Run",
+    "Application.Balls.executor": "Run",
     "Application.BinaryTreeSum (1).executor": "Run",
     "Application.BinaryTreeSum (2).executor": "Run",
     "Application.BinaryTreeSum (3).executor": "Run",
@@ -49,26 +85,51 @@
     "Application.BinaryTreeSum.executor": "Run",
     "Application.BusCapacity (1).executor": "Run",
     "Application.BusCapacity.executor": "Run",
+    "Application.CalcPostfix.executor": "Run",
     "Application.ConsecutiveNumbers (1).executor": "Run",
     "Application.ConsecutiveNumbers (2).executor": "Run",
     "Application.ConsecutiveNumbers (3).executor": "Run",
     "Application.ConsecutiveNumbers (4).executor": "Run",
     "Application.ConsecutiveNumbers (5).executor": "Run",
     "Application.ConsecutiveNumbers.executor": "Run",
+    "Application.DLLDeleteSublists.executor": "Run",
+    "Application.DLLMilitary.executor": "Run",
+    "Application.DanceCouples.executor": "Run",
+    "Application.DoubleArrayStack.executor": "Run",
+    "Application.DoubleParentheses.executor": "Run",
+    "Application.ExamSession.executor": "Run",
     "Application.GraphCommands.executor": "Run",
+    "Application.InfixToPostfix.executor": "Run",
     "Application.Labyrinth.executor": "Run",
+    "Application.Molecules.executor": "Run",
     "Application.NextSubject (1).executor": "Run",
     "Application.NextSubject.executor": "Run",
+    "Application.Parentheses.executor": "Run",
+    "Application.PoisonousPlants.executor": "Run",
     "Application.PreorderNonRecursive (1).executor": "Run",
     "Application.PreorderNonRecursive (2).executor": "Run",
     "Application.PreorderNonRecursive (3).executor": "Run",
     "Application.PreorderNonRecursive (4).executor": "Run",
     "Application.PreorderNonRecursive (5).executor": "Run",
     "Application.PreorderNonRecursive.executor": "Run",
+    "Application.QueueADSConsultations.executor": "Run",
+    "Application.QueueColloquium.executor": "Run",
+    "Application.QueueConsultations.executor": "Run",
+    "Application.QueueExamOrganization.executor": "Run",
+    "Application.QueueExamWeek.executor": "Run",
+    "Application.QueueRoundRobin (1).executor": "Run",
+    "Application.QueueRoundRobin.executor": "Run",
+    "Application.QueueTestQuasiQueue (1).executor": "Run",
+    "Application.QueueTestQuasiQueue.executor": "Run",
+    "Application.QueueTrains.executor": "Run",
     "Application.RankingCompetitors (1).executor": "Run",
     "Application.RankingCompetitors.executor": "Run",
     "Application.ShortestPath.executor": "Run",
+    "Application.StackMyStackTest (1).executor": "Run",
+    "Application.StackMyStackTest.executor": "Run",
     "Application.SubjectOrganization.executor": "Run",
+    "Application.TestQuasiStack.executor": "Run",
+    "Application.TestQueueStack.executor": "Run",
     "Application.WindowsExplorer (1).executor": "Run",
     "Application.WindowsExplorer (2).executor": "Run",
     "Application.WindowsExplorer (3).executor": "Run",
@@ -96,20 +157,13 @@
       <recent name="arrays_book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubjectOrganization">
-    <configuration name="BusCapacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BusCapacity" />
-      <module name="algorithms and data structures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GraphCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_10_introduction_to_graphs.GraphCommands" />
+  <component name="RunManager" selected="Application.StackMyStackTest (1)">
+    <configuration name="DoubleArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one_dimensional_data_structures_book.DoubleArrayStack" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratory_exercise_10_introduction_to_graphs.*" />
+          <option name="PATTERN" value="one_dimensional_data_structures_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextSubject (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.NextSubject" />
+    <configuration name="QueueADSConsultations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one_dimensional_data_structures_book.QueueADSConsultations" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
+          <option name="PATTERN" value="one_dimensional_data_structures_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextSubject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.NextSubject" />
+    <configuration name="StackMyStackTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one_dimensional_data_structures_book.StackMyStackTest" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
+          <option name="PATTERN" value="one_dimensional_data_structures_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.ShortestPath" />
+    <configuration name="StackMyStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one_dimensional_data_structures_book.StackMyStackTest" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
+          <option name="PATTERN" value="one_dimensional_data_structures_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubjectOrganization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratory_exercise_11_graph_algorithms.SubjectOrganization" />
+    <configuration name="TestQueueStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one_dimensional_data_structures_book.TestQueueStack" />
       <module name="algorithms and data structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratory_exercise_11_graph_algorithms.*" />
+          <option name="PATTERN" value="one_dimensional_data_structures_book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubjectOrganization" />
-        <item itemvalue="Application.NextSubject (1)" />
-        <item itemvalue="Application.NextSubject" />
-        <item itemvalue="Application.ShortestPath" />
-        <item itemvalue="Application.GraphCommands" />
+        <item itemvalue="Application.StackMyStackTest (1)" />
+        <item itemvalue="Application.StackMyStackTest" />
+        <item itemvalue="Application.TestQueueStack" />
+        <item itemvalue="Application.DoubleArrayStack" />
+        <item itemvalue="Application.QueueADSConsultations" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +237,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
       </set>
     </attachedChunks>
   </component>
@@ -211,6 +266,11 @@
       <workItem from="1704573520362" duration="1214000" />
       <workItem from="1704587446676" duration="24000" />
       <workItem from="1704633314600" duration="2497000" />
+      <workItem from="1706655895558" duration="70000" />
+      <workItem from="1707339967960" duration="69000" />
+      <workItem from="1707340051648" duration="3070000" />
+      <workItem from="1707671286108" duration="9934000" />
+      <workItem from="1707704003347" duration="18490000" />
     </task>
     <servers />
   </component>

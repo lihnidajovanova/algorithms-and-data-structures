@@ -1,7 +1,6 @@
-/*
 package one_dimensional_data_structures_book;
 
-public interface Stack {
+public interface Stack<E> {
     // Елементи на стекот се обjекти од произволен тип.
     // Методи за пристап:
 
@@ -21,4 +20,3 @@ public interface Stack {
     public E pop();
     // Го отстранува и враќа елементот што е на врв на стекот.
 }
-*/

@@ -1,14 +1,12 @@
 package one_dimensional_data_structures_book;
 
-import auditory_exercises_5_one_dimensional_data_structures.LinkedStack;
-
 // Вметни класа SLLNode
 // Вметни класа Stack
 // Вметни класа LinkedStack
 
-public class CalcPostfix {
-    public static Double evaluiraj_postfix(String izraz) {
-        auditory_exercises_5_one_dimensional_data_structures.LinkedStack<Double> stack = new LinkedStack<>();
+public class StackCalcPostfix {
+    public static Double evaluate_postfix(String izraz) {
+        LinkedStack<Double> stack = new LinkedStack<>();
         Double r = null;
         for (int i = 0; i < izraz.length(); i++) {
             char c = izraz.charAt(i);
@@ -20,7 +18,7 @@ public class CalcPostfix {
             } else {
                 // 6 2 - => 6-2
                 // 5 2 / => 2
-                System.out.println("Pred promenata (top first):" + stack + " operator:" + c);
+                System.out.println("Pred promenata (top first): " + stack + " operator: " + c);
                 if (stack.size() >= 2) {
                     Double posleden_broj = stack.pop();
                     Double pretposleden_broj = stack.pop();
@@ -41,9 +39,9 @@ public class CalcPostfix {
                             stack.push(pretposleden_broj / posleden_broj);
                             break;
                     }
-                    System.out.println("Po promenata (top first):" + stack);
+                    System.out.println("Po promenata (top first): " + stack);
                 } else {
-                    System.out.println("Nevaliden vlez - nedostasuva operand na pozicija:" + i);
+                    System.out.println("Nevaliden vlez - nedostasuva operand na pozicija: " + i);
                     return r;
                 }
             }
@@ -58,6 +56,6 @@ public class CalcPostfix {
 
     public static void main(String[] args) {
         String primer = "5  9 + 2 * 6 5 * +";
-        System.out.println("Рezultatot e" + evaluiraj_postfix(primer));
+        System.out.println("Рezultatot e " + evaluate_postfix(primer));
     }
 }

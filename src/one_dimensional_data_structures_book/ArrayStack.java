@@ -1,4 +1,3 @@
-/*
 package one_dimensional_data_structures_book;
 
 import java.util.NoSuchElementException;
@@ -50,4 +49,4 @@ public class ArrayStack<E> implements Stack<E> {
         elems[depth] = null;
         return topmost;
     }
-}*/
+}

@@ -4,9 +4,24 @@ public class DLL<E> {
     private DLLNode<E> first, last;
 
     public DLL() {
-        // Construct an empty DLL
+        // Construct an empty SLL
         this.first = null;
         this.last = null;
+    }
+
+    public int length() {
+        int ret;
+        if (first != null) {
+            DLLNode<E> tmp = first;
+            ret = 1;
+            while (tmp.succ != null) {
+                tmp = tmp.succ;
+                ret++;
+            }
+            return ret;
+        } else
+            return 0;
+
     }
 
     public void insertFirst(E o) {
@@ -152,18 +167,12 @@ public class DLL<E> {
     }
 
     public DLLNode<E> getLast() {
+
         return last;
     }
 
-    public void setFirst(DLLNode<E> first) {
-        this.first = first;
-    }
-
-    public void setLast(DLLNode<E> last) {
-        this.last = last;
-    }
-
     public void mirror() {
+
         DLLNode<E> tmp = null;
         DLLNode<E> current = first;
         last = first;
@@ -177,5 +186,13 @@ public class DLL<E> {
         if (tmp != null && tmp.pred != null) {
             first = tmp.pred;
         }
+    }
+
+    public void setFirst(DLLNode<E> node) {
+        this.first = node;
+    }
+
+    public void setLast(DLLNode<E> node) {
+        this.last = node;
     }
 }

@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 
 public class DLLMilitary {
 
-
     public static void main(String[] args) throws IOException {
         DLL<Integer> lista = new DLL<Integer>();
         BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
@@ -29,7 +28,7 @@ public class DLLMilitary {
         int d = Integer.parseInt(interval[1]);
 
 
-        DLL<Integer> result = military(lista, a, b, c, d);
+        DLL<Integer> result = vojska(lista, a, b, c, d);
 
 
         DLLNode<Integer> node = result.getFirst();
@@ -39,9 +38,10 @@ public class DLLMilitary {
             System.out.print(" " + node.element);
             node = node.succ;
         }
+
     }
 
-    private static DLL<Integer> military(DLL<Integer> lista, int a, int b, int c, int d) {
+    private static DLL<Integer> vojska(DLL<Integer> lista, int a, int b, int c, int d) {
 
         DLLNode<Integer> firstStart = null;
         DLLNode<Integer> firstEnd = null;
@@ -62,26 +62,20 @@ public class DLLMilitary {
         DLLNode<Integer> tempEnd = firstEnd.succ;
         if (secondStart.pred != firstEnd) {
             firstStart.pred = secondStart.pred;
-            if (firstStart.pred != null)
-                firstStart.pred.succ = firstStart;
+            if (firstStart.pred != null) firstStart.pred.succ = firstStart;
             firstEnd.succ = secondEnd.succ;
-            if (firstEnd.succ != null)
-                firstEnd.succ.pred = firstEnd;
+            if (firstEnd.succ != null) firstEnd.succ.pred = firstEnd;
             secondStart.pred = tempStart;
-            if (secondStart.pred != null)
-                secondStart.pred.succ = secondStart;
+            if (secondStart.pred != null) secondStart.pred.succ = secondStart;
             secondEnd.succ = tempEnd;
-            if (secondEnd.succ != null)
-                secondEnd.succ.pred = secondEnd;
+            if (secondEnd.succ != null) secondEnd.succ.pred = secondEnd;
         } else {
             firstEnd.succ = secondEnd.succ;
-            if (firstEnd.succ != null)
-                firstEnd.succ.pred = firstEnd;
+            if (firstEnd.succ != null) firstEnd.succ.pred = firstEnd;
             firstStart.pred = secondEnd;
             firstStart.pred.succ = firstStart;
             secondStart.pred = tempStart;
-            if (secondStart.pred != null)
-                secondStart.pred.succ = secondStart;
+            if (secondStart.pred != null) secondStart.pred.succ = secondStart;
         }
         while (steps.pred != null) {
             steps = steps.pred;

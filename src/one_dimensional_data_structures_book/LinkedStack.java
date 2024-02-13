@@ -1,4 +1,3 @@
-/*
 package one_dimensional_data_structures_book;
 
 import java.util.NoSuchElementException;
@@ -64,4 +63,4 @@ public class LinkedStack<E> implements Stack<E> {
         top = top.succ;
         return topElem;
     }
-}*/
+}

@@ -2,19 +2,19 @@ package dll_book;
 
 public class DLLMirror {
     public static void main(String[] args) {
-        DLL<String> list = new DLL<String>();
-        list.insertLast("ovaa");
-        list.insertLast("lista");
-        list.insertLast("kje");
-        list.insertLast("bide");
-        list.insertLast("prevrtena");
+        DLL<String> lista = new DLL<String>();
+        lista.insertLast("ovaa");
+        lista.insertLast("lista");
+        lista.insertLast("kje");
+        lista.insertLast("bide");
+        lista.insertLast("prevrtena");
 
-        System.out.println("Listata pred da bide prevrtena: ");
-        System.out.println(list.toString());
+        System.out.println("Listata pred da bide prevrtena");
+        System.out.println(lista.toString());
 
-        list.mirror();
+        lista.mirror();
 
-        System.out.println("Listata otkako e prevrtena: ");
-        System.out.println(list.toString());
+        System.out.println("Listata otkako e prevrtena");
+        System.out.println(lista.toString());
     }
 }
